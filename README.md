@@ -15,6 +15,7 @@ mkdir ~/bin
 ln -sv ~/ravshello/ravshello.py ~/bin/ravshello
 ln -sv ~/ravshello/rav-notify.py ~/bin/rav-notify
 wget -P ~/ravshello https://raw.githubusercontent.com/ryran/python-sdk/experimental/lib/ravello_sdk.py
+yum install python-configshell
 ravshello
 ```
 
